@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpSession;
+import java.util.Date;
 
 /**
  * 登录相关
@@ -35,6 +36,8 @@ public class LoginController {
 	public String index() {
 		return "/system/login";
 	}
+
+
 
 	/**
 	 * session超时
@@ -65,6 +68,7 @@ public class LoginController {
 			GroupDto groupDto = groupService.getByIdWithMenuAction(userDto.getGroupId());
 			session.setAttribute(SessionKeyConst.MENU_INFO,groupDto.getMenuDtoList());
 			session.setAttribute(SessionKeyConst.ACTION_INFO, groupDto.getActionDtoList());
+
 			return "redirect:/index";
 		}
 		attr.addFlashAttribute(PageCodeEnum.KEY, PageCodeEnum.LOGIN_FAIL);
