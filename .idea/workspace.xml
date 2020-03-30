@@ -21,7 +21,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -87,8 +87,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="137" />
-    <option name="y" value="17" />
+    <option name="x" value="-128" />
+    <option name="y" value="7" />
     <option name="width" value="1750" />
     <option name="height" value="975" />
   </component>
@@ -474,6 +474,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.index.jsp" />
+        <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +523,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74625000" />
+    <option name="totallyTimeSpent" value="74716000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,7 +535,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="551" y="38" width="1400" height="780" extended-state="0" />
+    <frame x="93" y="14" width="1400" height="780" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
